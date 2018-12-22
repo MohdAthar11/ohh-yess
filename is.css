@@ -1,0 +1,60 @@
+table {
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border-top: 4px solid #DCA806;
+    text-align: center;
+    width: 100%;
+}
+caption{
+    font-weight: bold;
+    padding: 0.25em 0 0.25em 0;
+    text-align: left;
+    text-transform: uppercase;
+    border-top: 1px solid #DCA806;
+    
+}
+thead tr{
+    background-color: #062f4f;
+    color: white;
+}
+th{
+    padding:0.75em;
+    
+}
+tbody tr{
+    background-color: #F1F1F1;
+    border-bottom: solid 1pt white;
+    color: #6E6E6E;
+}
+tbody td{
+    padding:10px;
+    vertical-align: top;/* used to spcify position of the text if cell is of greater height,default position is in center*/ 
+}
+
+tbody tr:nth-child(odd){
+    background-color:rgb(243, 240, 240);
+}
+tbody tr:hover{
+    background-color: #c0bcbc;
+    color: black;
+}
+tbody td,th{
+    border: 1px solid #ddd;/* horizontal divider*/
+    height: 20px;
+}
+.isflex{
+    display:flex;
+    flex-wrap: wrap;
+}
+.isleft{
+    flex: 22%;
+    
+}
+.isleft p{
+    padding-left:2em; 
+}
+.isright{
+    flex: 75%;
+    padding: 10px;
+}
